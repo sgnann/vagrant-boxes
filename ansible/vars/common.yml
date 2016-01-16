@@ -3,5 +3,5 @@
     doc_root: "/vagrant/web"
     sys_packages: ["git"]
     dist: precise
-    php_packages: ["php5-cli","php5-curl","php5-common","php5-mysql","php5-gd","php5-intl","php5-apcu","php5-xdebug", "php-pear", "php5-dev"]
-    pecl_packages: ["mongo"]
+    php_packages: ["php5-cli","php5-curl","php5-common","php5-mysql","php5-gd","php5-intl","php5-apcu", "php-pear", "php5-dev"]
+    pecl_packages: ["mongo", "xdebug-2.4.0RC3"]
