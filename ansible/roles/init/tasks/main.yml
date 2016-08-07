@@ -9,6 +9,10 @@
     update_cache: yes
     upgrade: dist
 
+- name: Update fstab Configuration
+  become: yes
+  template: src=fstab.tpl dest=/etc/fstab
+
 - name: Update folder permissions
   become: yes
   shell: chown -R www-data:www-data /vagrant && chmod -R g+rwx /vagrant && chmod g+s /vagrant
