@@ -40,6 +40,7 @@
     - pkg-config
     - language-pack-en-base
     - pdftk
+    - imagemagick
 
 - name: Install phantomjs
   become: yes
